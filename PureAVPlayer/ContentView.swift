@@ -26,8 +26,7 @@ struct VideoPlayerView: UIViewControllerRepresentable {
 struct ContentView: View {
     
     var body: some View {
-        VideoPlayerView(videoURL: URL(string: "https://live-stream-test.zbeta.xyz/live/liveTestAndroid.m3u8")!)//?request_llhls=1")!)
-            .frame(height: 300)
+        VideoPlayerView(videoURL: URL(string: "https://dev-tgls.zepeto.io/DEV_ZEPETO_LIVE/22011_devTrans.m3u8?txSecret=8abab19f72276dce0a72a666f9d433c7&txTime=66669F21&request_llhls=1")!)
     }
 }
 
